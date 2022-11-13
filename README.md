@@ -1,4 +1,4 @@
-# 1-Dimenstionales Array
+# 1-Dimensionales Array
 
 ## Was ist ein **eindimensionales Array**?
 Ein 1-dim Array ist prinzipiell eine einfache Liste.
