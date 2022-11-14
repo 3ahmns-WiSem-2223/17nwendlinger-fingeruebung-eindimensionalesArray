@@ -38,6 +38,23 @@ public class ArrayFingeruebung : MonoBehaviour
         Debug.Log(array3[array3.Length - 1]);
         Debug.Log(array4[array4.Length - 1]);
         Debug.Log(redImageArray[redImageArray.Length - 1]);
+
+        
+        
+        for (int i = 0; i < array4.Length; i++)
+        {
+            Debug.Log("Das Element[" + i + "] hat den string-Wert: " + array4[i]);
+        }
+
+
+        
+        string debugText = " ";
+
+        for (int i = 0; i < array2.Length; i++)
+        {
+            debugText += array2[i] + " ";    
+        }
+        Debug.Log("Alle Werte von Array2: " + debugText);
     }
-    
+
 }
