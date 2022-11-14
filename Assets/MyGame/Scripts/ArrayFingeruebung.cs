@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class ArrayFingeruebung : MonoBehaviour
 {
@@ -55,6 +56,22 @@ public class ArrayFingeruebung : MonoBehaviour
             debugText += array2[i] + " ";    
         }
         Debug.Log("Alle Werte von Array2: " + debugText);
+
+
+        array1[3] = 3;
+        Debug.Log(array1[3]);
+
+        array2[2] = 203;
+        Debug.Log(array2[2]);
+
+        array3[5] = 333;
+        Debug.Log(array3[5]);
+
+        array4[2] = "heute";
+        Debug.Log(array4[2]);
+
+        redImageArray[2].GetComponent<Image>().color = new Color32(0, 137, 0, 255);
+
     }
 
 }
