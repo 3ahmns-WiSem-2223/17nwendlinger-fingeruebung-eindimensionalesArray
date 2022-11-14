@@ -11,21 +11,33 @@ public class ArrayFingeruebung : MonoBehaviour
     int[] array3 = { 31, 32, 33, 34, 35, 36, 37 };
     string[] array4 = new[]
     {
-        "array4",
-        "array4",
-        "array4",
-        "array4",
-        "array4",
-        "array4",
-        "array4",
-        "array4",
-        "array4",
-        "array4",
+        "1. array4",
+        "2. array4",
+        "3. array4",
+        "4. array4",
+        "5. array4",
+        "6. array4",
+        "7. array4",
+        "8. array4",
+        "9. array4",
+        "10. array4",
     };
 
     private void Start()
     {
         GameObject[] redImageArray = GameObject.FindGameObjectsWithTag("RedImages");
+
+        Debug.Log(array1[0]);
+        Debug.Log(array2[0]);
+        Debug.Log(array3[0]);
+        Debug.Log(array4[0]);
+        Debug.Log(redImageArray[0]);
+
+        Debug.Log(array1[array1.Length - 1]);
+        Debug.Log(array2[array2.Length - 1]);
+        Debug.Log(array3[array3.Length - 1]);
+        Debug.Log(array4[array4.Length - 1]);
+        Debug.Log(redImageArray[redImageArray.Length - 1]);
     }
     
 }
