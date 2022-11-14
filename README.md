@@ -7,4 +7,4 @@ Zuerst wird der Array mit einem Datentyp (int, string, ...) deklariert. Nun muss
 ## Wie kann man sich ein Array vorstellen?
 Ein Array ist quasi wie ein Schrank mit Schubladen. Diese Schubladen kann man mit Werten (__Elementen__) befüllen und danach abfragen. Z.B. Kann man die Schubladen mit Stiften befüllen und danach abfragen, wie viele Stifte in jeder Schublade vorhanden sind. Natürlich geht das auch mit dem Datentyp "string" z.B. wenn man abragen möchte, welche DVD in einer Schublade zu finden ist.
 
-![arrayskizze](https://user-images.githubusercontent.com/114598279/201529191-ff9780c2-dd21-4fc6-9f5f-e4652ab10ce3.jpg)
+![Skizze](https://user-images.githubusercontent.com/114598279/201710660-0dc7c394-d965-44f0-ba65-8d3154112809.jpg)
